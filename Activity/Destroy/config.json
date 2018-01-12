@@ -1,0 +1,27 @@
+{
+    "Configuration": {
+        "FunctionName": "MitipiDestroyActivity",
+        "FunctionArn": "arn:aws:lambda:eu-central-1:297893993926:function:MitipiDestroyActivity",
+        "Runtime": "nodejs6.10",
+        "Role": "arn:aws:iam::297893993926:role/service-role/MitipiLambdaRole",
+        "Handler": "index.handler",
+        "CodeSize": 962,
+        "Description": "An Amazon S3 trigger that delete metadata for the activity that has been deleted.",
+        "Timeout": 3,
+        "MemorySize": 128,
+        "LastModified": "2017-10-31T11:13:47.107+0000",
+        "CodeSha256": "7TYcM7dqUeW0pgfpWe6NMq0724LWZ5H4PuCYDZNp07s=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [],
+            "SecurityGroupIds": []
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-eu-cent-1-tasks.s3.eu-central-1.amazonaws.com/snapshots/297893993926/MitipiDestroyActivity-d9e5a44f-3068-4f78-a80b-bbe5ac966de9?versionId=j_kuVl_2iO2sA1wkAD4rUVdIMYdqgN0i&X-Amz-Security-Token=FQoDYXdzENr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDHcl6SefAJUOLdKw8iK9AyhtzflmblXFZ9b2S9SVMycCge4ffmKLWH%2FbBWw7kUCmwEAUbNFXUX1JZZwHYQKdlYhvxqpq7DnSYMOVAa8t%2BnBAcfUQCBjVJRMPNICghTLEyhHrHHW7D3JjEEL33kBP7%2BYElG3gVH13ukhHcS7%2FyT9OmkYLZkMmLtytb90qq%2BXL3eN09SRp7M8N9Ws8N9xWvpmQ0HeQwS5NSGAZgnmYaFVknut1QOXrJqCI2Icr%2FOX3apUitTk3rlLxXp4qt6jlHT8OZ%2BfcsGZHPrOv5tMXwpTV6PvUmbfRNG26Oak4tg8OAbLZAhN3pJZOPRk8oNKNLmwgK%2FfETA9ZPwJEP637oOXHLWmnL0erRjExblpMEroY%2B7NUehcD0K%2F54yMO5EGW0aBwFzlsjUWL7B5TMlgybDvZs167G6bgPR4pEx2%2Fm7AgQlD2NMzZ2TVFQNvJMO4FO9gwbzzYn3MCRmWnV6CB%2Bd4r38JkQq4sWCK4EXVXmtQ6dSF5yOUxM1M1k5NUJ6GoXQ%2FH9dtBpDh3lk2PjY6rkGap78%2BGINBZml8hlT59QdDD0jBXrmGCqwNhhg1taw1c9u5KV2Kls%2BrZ1L3ZZ1go1djizwU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20171031T171917Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIAJQK6E24UZRRV2KYA%2F20171031%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=84bb1a8c9f67edfb60e0bb44634d3102335c6a95b031fd3ee6636db966320917"
+    }
+}

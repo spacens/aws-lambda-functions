@@ -1,0 +1,30 @@
+{
+    "Configuration": {
+        "FunctionName": "MitipiCreateActivity",
+        "FunctionArn": "arn:aws:lambda:eu-central-1:297893993926:function:MitipiCreateActivity",
+        "Runtime": "nodejs6.10",
+        "Role": "arn:aws:iam::297893993926:role/service-role/MitipiLambdaRole",
+        "Handler": "index.handler",
+        "CodeSize": 1615,
+        "Description": "An Amazon S3 trigger that retrieves metadata for the object that has been updated.",
+        "Timeout": 10,
+        "MemorySize": 128,
+        "LastModified": "2017-10-31T11:15:11.047+0000",
+        "CodeSha256": "BwyqpHOB/xEgm5JaMoUMa0FkWb7bVjUmjaS+zkKmYj4=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [],
+            "SecurityGroupIds": []
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://awslambda-eu-cent-1-tasks.s3.eu-central-1.amazonaws.com/snapshots/297893993926/MitipiCreateActivity-b0f9dc8b-58b9-454b-8929-e2190d45aea3?versionId=m4KEMXdSIXbWK9JLRABBLsWu6tI7Z6vS&X-Amz-Security-Token=FQoDYXdzENr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDAv1Wa%2Foakuxm96W0CK9A64sPw3CXhvdEWyMYoN716UPdabwnrpD81yRl51KyFTOHGPY1pqHWLqn9kNDVYhs6cnF2z6jJBeQ7%2FK%2B176MQU9SXwgVG7%2B5%2FOWdEeo61EwMfbJEYnHC0bz4WsCEv8iNfiWbki0ewYXFQyGZpggxuNiSpeZ%2FuNeAkueHO%2Bbqt33Nnk4LBrCCol6KdWGhmiwRQK%2BHEV2ss4Q2exQVkyaBHiqk1M2GyhKVEU7EWv3xiztWwblghtLM4Ny7l0SZVzYVSY6MDSgDkM1o5ZDBnN%2FqKjMO339MoM%2FcUkEONKC6N05gEFH4kh1EW1gBPzhJw%2BbfOPht%2B5SwC8PkpfegEAdHByVaYdCCK8hW0N%2FJWt%2FsGVB1c5ISe7jW4nw1oTkzDRnpFxmvK3NwmY%2FTAsI2deSKNfy4Lxoa5RDhM7xRZaZ7uGre3PApFCv9llgbH3I5CohvoHvTY%2Baq4dBjLDtCvaZdnzTzn0aZ%2FxpqpNRp8wyldtxtxwBAbBiYLSIUT%2BB02MJmZHi3TBWPtfFnmzRto%2FcI2W%2BT0jb7JsyQnijpcQZrXFZbCREeFSZ6f9OeVb9kMzHAi9LFlmTroVTv0HtaJs0o%2B8bizwU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20171031T171741Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIAIIRRM6SRL6WBGL5A%2F20171031%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=71104f1e9833feb201a4653fbc90c2175ade4a295456dfaea9b0d188667e69d4"
+    },
+    "Tags": {
+        "lambda-console:blueprint": "s3-get-object"
+    }
+}

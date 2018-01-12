@@ -1,0 +1,36 @@
+{
+    "attributes": {
+        "description": "Some descriptions",
+        "language": "EN",
+        "time": [{
+            "period": 10
+        }],
+        "dayOfWeek": ["Sun", "Mo", "Tu"],
+        "illuminationThreshold": 10,
+        "tags": ["DOG", "CAT", "FAMILY", "ANIMAL"],
+        "type": "ENTERTAINMENT",
+        "cooldown": "seconds",
+        "likelihood": 1,
+        "environment": "URBAN",
+        "roomType": "BEDROOM",
+        "length": "seconds",
+        "composition": "VISUAL",
+        "minBreakPeriod": "seconds"
+    },
+    "content": [{
+
+            "startTime": "02: 50: 45",
+            "A": "audioName"
+
+        },
+        {
+            "startTime": "01: 18: 45",
+            "A": "audioName",
+            "V": "visualName"
+        },
+        {
+            "startTime": "01: 30: 45",
+            "V": "visualName"
+        }
+    ]
+}
